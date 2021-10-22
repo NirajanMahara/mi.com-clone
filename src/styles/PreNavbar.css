@@ -7,12 +7,22 @@
 
 .preNav > div {
   padding: 0 4vmax;
+  display: flex;
+  align-items: center;
 }
 
 .preNav > div > span {
   color: rgba(180, 180, 180, 0.644);
   font-size: 0.8vmax;
   font-weight: 100;
+}
+
+.preNav > div svg {
+  fill: rgb(180, 180, 180);
+}
+
+.preNav > div svg:hover {
+  fill: rgb(255, 255, 255);
 }
 
 .preNav > div > a {
