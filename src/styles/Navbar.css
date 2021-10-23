@@ -27,3 +27,12 @@
 #logoImage:hover {
   transform: translateX(0);
 }
+
+.navLinks {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1vmax;
+  font-weight: 500;
+  color: rgb(59, 59, 59);
+  margin: 1vmax 1.2vmax;
+  text-decoration: none;
+}
