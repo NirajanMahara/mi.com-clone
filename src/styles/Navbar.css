@@ -21,6 +21,7 @@
 
 #logoImage {
   transform: translateX(-58px);
+  transition: all 0.2s;
 }
 
 #logoImage:hover {
