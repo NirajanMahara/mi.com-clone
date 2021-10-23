@@ -18,3 +18,7 @@
   right: 2vmax;
   cursor: pointer;
 }
+
+#logoImage {
+  transform: translateX(-58px);
+}
