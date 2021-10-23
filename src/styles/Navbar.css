@@ -8,3 +8,13 @@
   align-items: center;
   border-bottom: 1px solid rgba(43, 43, 43, 0.137);
 }
+
+.logo {
+  background-color: orangered;
+  width: 58px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  right: 2vmax;
+  cursor: pointer;
+}
