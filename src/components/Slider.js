@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const Slider = ({ start }) => {
   return (
-    <Carousel>
+    <Carousel fade>
       {start.map((item) => (
         <Carousel.Item>
           <img
