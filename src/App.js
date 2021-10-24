@@ -35,6 +35,27 @@ function App() {
           smartDeviceCover={data.hotAccessoriesCover.smartDevice}
         />
       </Route>
+
+      <Route exact path='/home'>
+        <HotAccessories
+          home={data.hotAccessories.home}
+          homeCover={data.hotAccessoriesCover.home}
+        />
+      </Route>
+
+      <Route exact path='/lifestyle'>
+        <HotAccessories
+          lifeStyle={data.hotAccessories.lifeStyle}
+          lifeStyleCover={data.hotAccessoriesCover.lifeStyle}
+        />
+      </Route>
+
+      <Route exact path='/mobileAccessories'>
+        <HotAccessories
+          mobileAccessories={data.hotAccessories.mobileAccessories}
+          mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories}
+        />
+      </Route>
     </Router>
   );
 }
