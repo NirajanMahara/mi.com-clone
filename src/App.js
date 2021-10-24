@@ -56,6 +56,8 @@ function App() {
           mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories}
         />
       </Route>
+
+      <Heading text='PRODUCT REVIEWS' />
     </Router>
   );
 }
