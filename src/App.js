@@ -28,6 +28,13 @@ function App() {
           musicCover={data.hotAccessoriesCover.music}
         />
       </Route>
+
+      <Route exact path='/smartDevice'>
+        <HotAccessories
+          smartDevice={data.hotAccessories.smartDevice}
+          smartDeviceCover={data.hotAccessoriesCover.smartDevice}
+        />
+      </Route>
     </Router>
   );
 }
