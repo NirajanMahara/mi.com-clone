@@ -60,6 +60,7 @@ function App() {
 
       <Heading text='PRODUCT REVIEWS' />
       <ProductReviews productReviews={data.productReviews} />
+      <Heading text='VIDEOS' />
     </Router>
   );
 }
