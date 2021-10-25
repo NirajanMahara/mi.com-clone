@@ -39,6 +39,7 @@
 
 .navLinks:hover {
   color: orangered;
+  text-decoration: none;
 }
 
 .searchBox {
