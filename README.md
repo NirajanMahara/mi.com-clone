@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb5c0273-2b87-464b-bff2-515b3c5300cb/deploy-status)](https://app.netlify.com/sites/mi-clone-2021-nirajanweb/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
