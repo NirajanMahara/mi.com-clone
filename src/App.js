@@ -63,6 +63,7 @@ function App() {
       <ProductReviews productReviews={data.productReviews} />
       <Heading text='VIDEOS' />
       <Videos videos={data.videos} />
+      <Heading text='IN THE PRESS' />
     </Router>
   );
 }
