@@ -186,6 +186,10 @@ const Footer = ({ footer }) => {
           <button>CHAT NOW</button>
         </div>
       </div>
+
+      <div className='copyrightFooter'>
+        <div> Copyright © 2010 - 2021 Xiaomi. All Rights Reserved</div>
+      </div>
     </>
   );
 };
